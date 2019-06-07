@@ -17,3 +17,8 @@ USAGE:
 
         python3 generate_results.py -c '{}' -i input_path -o output.tgz
 
+## Credits
+
+Genís Bayarri
+
+Molecular Modeling and Bioinformatics Group. IRB Barcelona.
