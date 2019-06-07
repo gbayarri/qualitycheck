@@ -1,0 +1,54 @@
+{
+	"step8_genion": [
+		{ 
+		"src": "genion_top.zip",
+		"dst": "biobb.MDsetup.top.zip"
+		}
+	],
+	"step15_grompp_md": [
+		{ 
+		"src": "gppmd.tpr",
+		"dst": "biobb.MDsetup.tpr"
+		}
+	],
+	"step16_mdrun_md":[
+		{ 
+		"src": "md.gro",
+		"dst": "biobb.MDsetup.gro"
+		},
+		{ 
+		"src": "md.cpt",
+		"dst": "biobb.MDsetup.cpt"
+		}
+	],
+	"step18_image2": [
+		{ 
+		"src": "md.imaged.rot.trr",
+		"dst": "biobb.MDsetup.trr"
+		}
+	],
+	"step20_energy": [
+		{ 
+		"src": "setup.energy.xvg",
+		"dst": "biobb.MDsetup.energy.xvg"
+		}
+	],
+	"step21_rgyr": [
+		{ 
+		"src": "setup.rgyr.xvg",
+		"dst": "biobb.MDsetup.rgyr.xvg"
+		}
+	],
+	"step22_rmsd_first": [
+		{ 
+		"src": "setup.rmsd_first.dat",
+		"dst": "biobb.MDsetup.rmsd_first.dat"
+		}
+	],
+	"step23_rmsd_exp": [
+		{ 
+		"src": "setup.rmsd_exp.dat",
+		"dst": "biobb.MDsetup.rmsd_exp.dat"
+		}
+	]
+}
