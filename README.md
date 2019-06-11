@@ -1,6 +1,6 @@
 # Quality check
 
-Scripts for biobb WFs quality check and generation of results.
+Scripts for biobb workflows quality check and generation of results.
 
 ## Generate results
 
